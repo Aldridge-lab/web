@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Courses</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/mashup-Logo.jpg" alt="Logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Programmes</h1>
+
+</section>
+
+<!-----Course (DUPLICATE THIS AND MAKE ANOTHER FOR "SERVICES")------>
+<!--------campus?-------->
+<section class="course">
+    <h1>Our Courses</h1>
+    <p>Our <strong>FREE!</strong> courses range from Basic computer literacy, Computer technician, to Coding, and welding, life skills etc. After which students get a certificate of completion.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <img src="images/basic.jpg" alt="">
+            <div class="layer">
+                <h3>Basic Computer Training (End-User Computing) 
+                    <p>Modules: <br> Word, PowerPoint, Excel, Typing, Emailing, and Outlook</p>
+                </h3>
+
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/web.jpg" alt="">
+            <div class="layer">
+                <h3>Web Development (Coding)
+                    <p>Modules: <br> HTML, CSS, and JavaScript <br> for Web Development</p>
+                </h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/tech.png" alt="">
+            <div class="layer">
+                <h3>Computer Technician Training (A+)
+                    <p>Modules: <br>Windows, Computer Componets, Internet, Networking, WLAN and Routing, Trouble Shooting, Software Installations </p>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="course-col">
+            <img src="images/skill2.jpg" alt="">
+            <div class="layer">
+                <h3>Life Skills Training
+                    <p>Focus: <br> Positive Mindset, Improved Behavior, Personal Development, Sympathy, Reciprocity.</p>
+                </h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/welding.png" alt="">
+            <div class="layer">
+                <h3>Welding Training
+                    <p>Modules:<br> Weld Profiles, Safety, Codes and Standards, WPS, Techniques</p>
+                </h3>
+            </div>
+        </div>
+        <div class="course-col">
+            <img src="images/work.png" alt="">
+            <div class="layer">
+                <h3>Workplace Readiness
+                    <p>Focus: <br> Personal Qualities, People Skills, and Professional Traits, Conflict Resolution Skills, People Management.</p>
+                </h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+    
+
+
+
+<!--FOOTER-->
+
+<div class="footer">    
+    <div class="col-1">
+        <h3>USEFUL LINKS</h3>
+                <a href="index.html">HOME</a>
+                <a href="courses.html">COURSES</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+
+                <br>
+                <img src="images/social-logo.jpg" alt="Logo">
+
+                <p>Copyright &copy;2022. Designed by Aldridge-lab</p>
+                <br>
+    </div>
+    
+    <div class="col-2">
+        <h3>FOLLOW US </h3>
+
+        <a href="https://www.facebook.com/WestburyYouthCentre/"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/youthwestbury"><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        <a href=""><i class="fa fa-youtube"></i></a>
+
+    </div>
+    <div class="col-3">
+        <h3>FIND US</h3>
+        <h5>ADDRESS:</h5>
+        <p>Corner Mac Millan and Du Plessis road <br> Westbury Youth Centre,<br> Westbury</p>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14321.929923029873!2d27.9749631!3d-26.1809788!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa5f5470f94bfb3f4!2sWestbury%20Youth%20Centre!5e0!3m2!1sen!2sza!4v1667814301517!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    
+    </div>
+
+<!----------JavaScripts Toggle menu------>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+    navLinks.style.right = "-200px"
+    }
+
+
+</script>
+
+
+</body>
+</html>
